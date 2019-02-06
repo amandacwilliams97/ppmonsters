@@ -11,6 +11,7 @@ error_reporting(E_ALL);
 
 require ('monster.php');
 require ('vampire.php');
+require ('slime.php');
 
 $monster1 = new Monster("BOO");
 $monster1->attack();
@@ -21,3 +22,12 @@ $vampire->attack();
 echo $vampire->getVictims();
 $vampire->attack();
 echo $vampire->getVictims();
+
+echo "<br><br>";
+
+$slime = new Slime();
+echo $slime->getSpew();
+$slime->attack();
+echo $slime->getSpew();
+$slime->attack();
+echo $slime->getSpew();
