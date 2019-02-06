@@ -10,6 +10,14 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 require ('monster.php');
+require ('vampire.php');
 
 $monster1 = new Monster("BOO");
 $monster1->attack();
+
+$vampire = new Vampire();
+echo $vampire->getVictims();
+$vampire->attack();
+echo $vampire->getVictims();
+$vampire->attack();
+echo $vampire->getVictims();

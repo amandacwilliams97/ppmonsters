@@ -33,6 +33,6 @@ class Monster
     #attack
     function attack()
     {
-        echo "$this->_name is attacking.";
+        echo "<p>$this->_name is attacking.</p>";
     }
 }
