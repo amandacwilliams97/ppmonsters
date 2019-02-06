@@ -1,0 +1,17 @@
+{
+  "name": "agonzale/328/pets",
+  "authors": [
+    {
+      "name": "Amanda Williams",
+      "email": "awilliams100@mail.greenriver.edu"
+    },
+    {
+      "name": "Jarod Bose",
+      "email": "jbose@mail.grenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+
+}
