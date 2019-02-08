@@ -9,10 +9,6 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-require ('monster.php');
-require ('vampire.php');
-require ('slime.php');
-
 $monster1 = new Monster("BOO");
 $monster1->attack();
 
